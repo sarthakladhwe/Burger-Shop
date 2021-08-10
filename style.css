@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+}
+
+.borgir-kid {
+  height: 250px;
+  border: 1px solid red;
+}
+
+.borgir-kid-1 {
+  transform: scaleX(-1);
+}
+
+header h1 {
+  font-size: 50px;
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* header {
+  position: relative;
+  height: 200px;
+  background-color: #f1f1f1;
+  border: 2px solid black;
+}
+
+header img {
+  float: left;
+  height: 230px;
+}
+
+header h1 {
+  float: right;
+} */
