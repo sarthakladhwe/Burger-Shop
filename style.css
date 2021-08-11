@@ -6,6 +6,7 @@ body {
   height: 200vh;
   margin: 0;
   font-family: sans-serif;
+  background: #f1f1f1;
 }
 
 header {
@@ -13,12 +14,11 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #f1f1f1;
+  background: violet;
 }
 
 .borgir-kid {
   height: 250px;
-  border: 1px solid red;
 }
 
 .borgir-kid-1 {
@@ -27,13 +27,47 @@ header {
 
 header h1 {
   font-size: 50px;
-  border: 1px solid black;
 }
 
 .container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+}
+
+.item {
+  background: white;
+  padding: 20px 20px;
+  margin: 40px 60px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 6px 1px rgba(0, 0, 255, 0.2);
+}
+
+.item img {
+  background: violet;
+  height: 250px;
+}
+
+.description p {
+  font-size: 22px;
+  color: grey;
+}
+
+.description button {
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  background: rgba(0, 128, 128, 0.795);
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.description button:hover {
+  background-color: teal;
 }
 
 /* header {
