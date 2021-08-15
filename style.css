@@ -3,7 +3,6 @@
 }
 
 body {
-  height: 200vh;
   margin: 0;
   font-family: sans-serif;
   background: #f1f1f1;
@@ -68,6 +67,49 @@ header h1 {
 
 .description button:hover {
   background-color: teal;
+}
+
+.cartSidebar {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+.cartSidebar h2 {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.cartSidebar .closeCart {
+  position: absolute;
+  color: black;
+  left: 25px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+.openCart {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  color: violet;
+  padding: 10px 15px;
+  border: none;
+  right: 0;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* header {
